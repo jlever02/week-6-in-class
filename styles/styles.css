@@ -100,9 +100,11 @@ div:hover {
 /*If you see this ignore it. I am adjusting the size of the navigation that takes you back and forth between the two pages we worked on during class.*/
 
 a:first-of-type {
+  color:#000;
   font-size:1.5rem;
   font-weight:600;
 }
+
 
 
 
