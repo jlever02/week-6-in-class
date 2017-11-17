@@ -1,0 +1,26 @@
+/* Vendor prefixes help different browsers recognize the styles to be as consistent as possible. Vendor prefixes are not required but are recommended. Each vendor prefix is commented below. */
+
+div {
+  width:5vw;
+  height:10vh;
+  background-color:red;
+  -webkit-transition: width 2s, height 4s;  /* Chrome, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS); basically, any WebKit based  */
+  -moz-transition: width 2s, height 4s;  /* Mozilla Firefox  */
+  -o-transition: width 2s, height 4s;  /* Old, pre-WebKit, versions of Opera  */ 
+  -ms-transition: width 2s, height 4s;  /* Internet Explorer and Microsoft Edge  */
+  transition:width 2s, height 4s; /* Shorthand but not browser specific */
+  
+  -webkit-transition-timing-function: linear; /* Which browser am I a prefix for? */
+  -moz-transition-timing-function: linear; /* Which browser am I a prefix for? */
+  -o-transition-timing-function: linear; /* Which browser am I a prefix for? */
+  -ms-transition-timing-function: linear; /* Which browser am I a prefix for? */
+   transition-timing-function: linear; /* Which browser am I a prefix for? */
+  
+  
+  transition-delay: 2s; /* Which browser am I a prefix for? And what is the max I should ever do this for? */
+}
+
+div:hover {
+  width:10vw;
+  height:20vh;
+}
