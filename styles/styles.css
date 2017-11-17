@@ -17,7 +17,7 @@ div {
    transition-timing-function: linear; /* Which browser am I a prefix for? */
   
   
-  transition-delay: 2s; /* Which browser am I a prefix for? And what is the max I should ever do this for? */
+  transition-delay: .25s; /* Which browser am I a prefix for? And what is the max I should ever do this for? */
 }
 
 div:hover {
